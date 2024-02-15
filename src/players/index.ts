@@ -20,4 +20,8 @@ export class Player {
   public isAFinnishPlayer() {
     return this.nationality === "Finland";
   }
+
+  public isAnAmericanPlayer() {
+    return this.nationality === "USA";
+  }
 }
