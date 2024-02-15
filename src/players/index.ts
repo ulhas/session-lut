@@ -16,4 +16,8 @@ export class Player {
   public isAForeignPlayer() {
     return this.nationality !== "Finland";
   }
+
+  public isAFinnishPlayer() {
+    return this.nationality === "Finland";
+  }
 }
