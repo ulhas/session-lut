@@ -10,4 +10,8 @@ export class Team {
     }
     this.coach = coach;
   }
+
+  public playerCount() {
+    return this.players.length;
+  }
 }
