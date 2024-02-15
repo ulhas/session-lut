@@ -14,4 +14,8 @@ export class Team {
   public playerCount() {
     return this.players.length;
   }
+
+  public hasCoach() {
+    return this.coach !== undefined;
+  }
 }
