@@ -6,7 +6,7 @@ describe("Teams", () => {
     const team = new Team("Finland", "Tom");
 
     // When
-    const playerCount = team.players.length;
+    const playerCount = team.playerCount();
     const coach = team.coach;
 
     // Then
